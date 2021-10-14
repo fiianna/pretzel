@@ -1,0 +1,219 @@
+
+/* Mobiilinäkymä */
+
+head {
+
+}
+
+body {
+
+}
+
+#special {
+background-color:#5F8288;
+@import url('https://fonts.googleapis.com/css2?family=Glory:wght@400;600&family=Roboto:wght@300&display=swap');
+font-family: 'Glory', sans-serif;
+color: white;
+padding: 0.4rem;
+background-image: url(../../../../images/special-bg.png);
+background-position: bottom left;
+background-repeat: repeat-x;
+}
+
+#wrapper {
+    @import url('https://fonts.googleapis.com/css2?family=Glory:wght@400;600&family=Roboto:wght@300&display=swap');
+font-family: 'Glory', sans-serif;
+
+}
+
+
+nav {
+padding: 1rem;
+display: flex;
+flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+
+nav > * {
+  flex-grow: 1;
+  flex-basis: 0;
+}
+
+.piiloon {
+  display: block;
+}
+
+
+header {
+
+}
+
+figure {
+
+}
+
+.tuotteet ul, .yhteystiedot ul {
+    column-count: 2;
+    list-style: circle;
+    margin-left: 2rem;
+}
+
+
+li {
+
+}
+
+
+p {
+padding: 1rem;
+}
+
+.main-content-flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+}
+
+.main-content-flex > * {
+  flex-grow: 1;
+  flex-basis: 0;
+}
+
+.main-content-flex .tupla {
+  flex-grow: 2;
+}
+
+article {
+background-color: #FDF8F2;
+padding: 1rem;
+
+}
+
+aside {
+background-color: #FDFAF5;
+padding: 1rem;
+/* column-count: 2;
+ */display: flex;
+/* align-items: right;
+ */
+ flex-direction: column;
+}
+
+h1 {
+padding: 0.5rem;
+
+}
+
+
+footer {
+background-color: #FDFAF5;
+text-align: center;
+color: lightgray;
+padding: 2rem;
+
+}
+
+.callout {
+    text-align: center;
+    background-color: #FAEAC9;
+
+    
+}
+
+figure img {
+  max-width: 100%;
+}
+
+.logo {
+  width: 5%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1rem;
+
+}
+
+.ekalogo {
+  width: 10%;
+
+}
+
+.tuotteet {
+  margin: 1rem;
+}
+
+.yhteystiedot {
+  margin: 1rem;
+}
+
+.meista {
+  text-transform: uppercase;
+  margin: 1rem;
+}
+
+.products {
+  text-transform: uppercase;
+}
+
+.otsikko1 {
+  text-transform: uppercase;
+  margin: 1rem;
+}
+
+.otsikko2 {
+  text-transform: uppercase;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.isolla {
+  text-transform: uppercase;
+}
+
+h2 {
+  padding: 1rem;
+}
+
+.isompi { 
+  font-weight: 400;
+}
+
+/* Tablettinäkymä */ 
+
+@media screen and (max-width: 768px) {
+    body {
+    }
+    .piiloon {
+      display: none;
+    }
+    .main-content-flex > * {
+      flex-basis: 100%;
+    }
+
+    .isompi {
+      font-style: oblique;
+    }
+    
+  }
+
+
+/* Mobiilinäkymä */
+
+
+@media screen and (max-width: 425px) {
+    body {
+    }
+    nav .ekalogo {
+      flex-basis: 100%;
+    }
+    
+    .isompi {
+      font-weight: 400;
+    }
+  }
+
+ 
